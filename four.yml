@@ -1,0 +1,6 @@
+four:
+    extends:
+        file: base.yml
+        service: base
+    environment:
+        - SHOUTOUT=...the law!

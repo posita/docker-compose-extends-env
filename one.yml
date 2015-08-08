@@ -1,0 +1,6 @@
+one:
+    extends:
+        file: base.yml
+        service: base
+    env_file:
+        - one.env

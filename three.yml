@@ -1,0 +1,6 @@
+three:
+    extends:
+        file: base.yml
+        service: base
+    environment:
+        - SHOUTOUT=I am...

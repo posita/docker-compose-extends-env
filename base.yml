@@ -1,0 +1,3 @@
+base:
+    image: debian:stable
+    command: bash -c 'echo "${SHOUTOUT:-Silence is golden.}"'
