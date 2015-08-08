@@ -1,6 +1,7 @@
-four:
+red:
     extends:
         file: base.yml
         service: base
     environment:
-        - SHOUTOUT=...the law!
+        - WHO=Stallion
+        - SHOUTOUT=I am...
